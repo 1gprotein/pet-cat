@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>virtual cat</title>
+  </head>
+  <body>
+    <div class="principal">
+      <h1 class="titulo">Meow! My name is     </h1>
+      <img id="imgGato" src="Imagens/empe.png" />
+      <div id="pop-up" class="hidden"></div>
+      <div class="acoes">
+        <input
+          type="button"
+          value="Food"
+          id="btn-alimentar"
+          class="btn-acao"
+        />
+        <p class="status" id="s-alimentar">Status</p>
+
+        <input
+          type="button"
+          value="Drink"
+          id="btn-dar-bebida"
+          class="btn-acao"
+        />
+        <p class="status" id="s-bebida">Status</p>
+
+        <input
+          type="button"
+          value="play"
+          id="btn-brincar"
+          class="btn-acao"
+        />
+        <p class="status" id="s-brincar">Status</p>
+
+        <input
+          type="button"
+          value="cuddle/pet"
+          id="btn-carinho"
+          class="btn-acao"
+        />
+        <p class="status" id="s-carinho">Status</p>
+
+        <input
+          type="button"
+          value="sleep/wake"
+          id="btn-acordar"
+          class="btn-acao"
+        />
+        <p class="status" id="acordar">Status</p>
+      </div>
+      <div class="conversa">
+        <div id="text"><h3>talk to me! /ᐠ｡ꞈ｡ᐟ✿\</h3> <br></div>
+        <input type="text" id="mensagem" />
+        <input type="button" value="send to cat" id="conversar" />
+        <input type="button" value="clear Chat" id="limpar-chat" />
+      </div>
+    </div>
+    <script src="javascript/variaveisControles.js"></script>
+    <script src="javascript/funcoesAuxiliaresControles.js"></script>
+    <script src="javascript/scriptControles.js"></script>
+  </body>
+</html>

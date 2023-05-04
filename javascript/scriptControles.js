@@ -112,7 +112,7 @@ document.getElementById("btn-acordar").addEventListener("click", function () {
   } else {
     texto.innerText = String.fromCodePoint(dormindo);
     gatoDormindo = true;
-    imagem.src = "Imagens/dormindo.png";
+    imagem.src = "https://github.com/1gprotein/pet-cat/blob/main/Imagens/Dormindo.png?raw=true";
     aviso(`${NOMEDOGATO} went to sleep.`);
   }
 });
